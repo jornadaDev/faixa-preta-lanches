@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+
+body {
+  background-image: url(../img/Golden\ __\ Graphic\ Tutorials\ &\ Resources.jpg);
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  width: 100%;
+  margin: 0 0;
+
+}
+
+header {
+  /* background-image: url(../img/Blaze\ O\ Calor\ Fogo\ Flame\ Background.jpg); */
+  
+  height: 130px;
+  padding: 10px;
+  display: flex;
+  font-size: 10px;
+  justify-content: space-between; 
+  align-items: center; 
+  width: 100vw;
+  /* position: fixed;
+  top: 0; 
+  da problema ao navegar pelo site, pq tampa */
+}
+  
+  
+  
+  
+
+#logo img {
+height: 100px;
+border-radius: 50%;
+margin-left: 40px;
+}
+
+
+
+nav {
+  display: flex;
+  gap: 10px;
+}
+  
+  
+
+nav a {
+  /* background-color: red; */
+  text-decoration: none;
+  padding: 4px;
+  margin-right: 54px;
+}
+
+ nav a:hover {
+
+  border-bottom: 1px solid white;
+  color: orangered;
+  
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 20px;
+  /* margin-top: 200px;
+  usar só quando usar o position fixed no header */
+}
+  
+  
+ 
+
+.foto-lado-do-formulario img {
+  height:33vw;
+  width: 400;
+  border: none;
+  border-radius: 20px;
+  margin-left: 20px ;
+ 
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  width: 400;
+  background-color: gainsboro;
+  margin-right: 20px;
+  height:33vw;
+  border-radius: 20px;
+  border: none;
+  padding: 20px;
+  margin-right: 20px;
+  
+
+}
+
+h3,p {
+  text-align: center;
+  color: black;
+}
+
+span {
+  color: orangered;
+  font-weight: bold;
+}
+
+
+.formulario input {
+  margin-bottom: 10px;
+  background-color: black;
+  color: white;
+}
+
+.formulario input, select {
+  text-align:center;
+  color: white;
+  background-color: black;
+}
+  
+.faixa-embaixo {
+  height: 81px;
+  margin: 8px auto;
+}
+  
+.faixa-embaixo img {
+  
+}
+
+
+   input[type="submit"] {
+    background-color: orangered;
+    margin-top: 10px;
+  }
+
+
+  .segunda-secao {
+  
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    width: 100%;
+    margin-top: 0;
+    
+  }
+
+   .segunda-secao img {
+    display: flex;
+    width: 235px;
+    border-radius: 50%;
+  } 
+
+
+    .sobre {
+      
+      text-align: center;
+      padding: 10px;
+    }
+  
+  .sobre p,h2 {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+ /* .map iframe {
+  display: block;
+  width: 100vw;
+  height: 300px;
+  margin-bottom: 0;
+
+}  */
+
+.map h2 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+footer {
+ 
+  
+  height: 200px;
+  height: 120px;
+  text-align: center;
+}
+
+footer img {
+  width: 60px;
+  margin-top: 15px;
+  padding: 5px;
+}
+
+footer img:hover {
+  padding: 10px;
+  opacity: 0.9;
+}
+
+footer span {
+  color: white;
+  background-color: black;
+}
+
+footer h6 {
+text-align: right;
+}
